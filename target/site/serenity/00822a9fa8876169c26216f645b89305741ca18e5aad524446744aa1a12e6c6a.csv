@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Test Sanagel website","Add one product with quantity 2 to the shopping cart","SUCCESS","2024-10-01T12:03:27.714225-05:00[America/Bogota]","0.0","8.73"
+"Test Sanagel website","Add two product with quantity 5 to the shopping cart","SUCCESS","2024-10-01T12:03:41.084624-05:00[America/Bogota]","0.0","4.88"

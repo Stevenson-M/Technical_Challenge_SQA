@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add product to shopping cart" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-10-01T21:49:53" hostname="MacBook-Air-de-Stevenson.local" time="21.975">
+  <properties/>
+  <testcase name="Add a product and validate the price" classname="Add product to shopping cart" time="21.975">
+    <failure message="java.lang.AssertionError: Expected product details&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected product details
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at stepDefinitions.stepsDefinitions.userShouldSeeTheCorrectPriceInTheCart(stepsDefinitions.java:69)
+	at ✽.User should see the correct price in the cart(file:///Users/steve/Downloads/Technical_Challenge_SQA/src/test/resources/features/steps.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[oct. 01, 2024 4:49:56 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 129
+oct. 01, 2024 4:49:56 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTENCIA: Unable to find version of CDP to use for 129.0.6668.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.14.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

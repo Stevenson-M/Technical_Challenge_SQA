@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Test Sanagel website" skipped="0" tests="2" time="13.6" timestamp="2024-10-01 12:03:27"><testcase name="Add one product with quantity 2 to the shopping cart"/><testcase name="Add two product with quantity 5 to the shopping cart"/></testsuite>
